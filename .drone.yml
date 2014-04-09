@@ -3,4 +3,4 @@ script:
   - ./test.sh
 services:
   - redis
-  - postgres
+  - postgres:9.3
