@@ -1,0 +1,6 @@
+image: mllrsohn/base
+script:
+  - ./test.sh
+services:
+  - redis
+  - postgres:9.1
