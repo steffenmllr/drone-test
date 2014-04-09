@@ -1,4 +1,4 @@
-image: mllrsohn/base
+image: bradrydzewski/node:0.10
 script:
   - ./test.sh
 services:
