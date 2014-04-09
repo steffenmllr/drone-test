@@ -1,6 +1,6 @@
 sudo start redis
 sleep 10
-psql -c 'create database test;' -U postgres
+createuser -s yournamehere -U postgres
 echo "whhho"
 # @todo: setup integraion test
 # psql -c "CREATE USER screenspeak WITH PASSWORD 'screenspeak'" -U postgres
