@@ -1,3 +1,2 @@
 sudo start redis
-sleep 10
-psql -c 'create database test;' -U super
+psql -h 127.0.0.1 -c 'create database test;' -U postgres

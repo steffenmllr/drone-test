@@ -1,6 +1,6 @@
-image: bradrydzewski/node:0.10
+image: mllrsohn/base
 script:
   - ./test.sh
 services:
   - redis
-  - paintedfox/postgresql -e USER="super" -e DB="database_name" -e PASS="super"
+  - postgres
