@@ -3,4 +3,4 @@ script:
   - ./test.sh
 services:
   - redis
-  - peer60/postgres
+  - paintedfox/postgresql -e USER="super" -e DB="database_name" -e PASS="super"
