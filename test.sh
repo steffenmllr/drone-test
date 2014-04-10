@@ -7,3 +7,5 @@ psql -h 127.0.0.1 -U postgres << EOF
     CREATE DATABASE testdb WITH OWNER=testuser;
     GRANT ALL ON DATABASE testdb TO testuser;
 EOF
+sleep 2
+sqitch deploy ci

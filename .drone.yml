@@ -1,6 +1,6 @@
-image: mllrsohn/base
+image: mllrsohn/ci
 script:
   - ./test.sh
 services:
   - redis
-  - postgres
+  - mllrsohn/postgres
